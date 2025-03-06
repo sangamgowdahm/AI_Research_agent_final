@@ -1,0 +1,16 @@
+
+fastapi
+uvicorn
+requests
+langchain-community
+langchain-core
+langchain-openai
+langchainhub
+langserve
+ollama
+beautifulsoup4
+duckduckgo-search
+tavily-python
+arxiv
+pydantic
+
