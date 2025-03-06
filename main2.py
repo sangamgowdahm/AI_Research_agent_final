@@ -13,7 +13,7 @@ import json
 
 
 RESULTS_PER_QUESTION = 4
-os.environ["TAVILY_API_KEY"] = "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"  
+os.environ["TAVILY_API_KEY"] = "xxxxxxxxxxxx"  
 
 
 ddg_search = DuckDuckGoSearchAPIWrapper()
@@ -33,7 +33,7 @@ def web_search(query: str, num_results: int = RESULTS_PER_QUESTION):
     return list(set(tavily_results + [r["link"] for r in ddg_results]))
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "lsxxxxxxxxxxxxxxxxxxe"
 
 
 SUMMARY_TEMPLATE = """{text} 
